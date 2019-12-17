@@ -1,8 +1,7 @@
 import React from 'react';
-import './Error.css';
-import Hero from "../../Hero/Hero";
+import Hero from "../Components/Hero";
 import {Link} from "react-router-dom";
-import Banner from "../../Banner/Banner";
+import Banner from "../Components/Banner";
 
 const Error = () => {
     return (

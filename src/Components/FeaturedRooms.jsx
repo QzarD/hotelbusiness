@@ -1,9 +1,8 @@
 import React from 'react';
-import './FeaturedRooms.css';
-import {RoomContext} from "../../context";
-import Title from "../Title/Title";
-import Loading from "../Loading/Loading";
-import Room from "../Room/Room";
+import {RoomContext} from "../context";
+import Title from "./Title";
+import Loading from "./Loading";
+import Room from "./Room";
 
 function FeaturedRooms() {
     return (

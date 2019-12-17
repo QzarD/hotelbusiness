@@ -1,6 +1,4 @@
 import React from 'react';
-import './Banner.css';
-import Hero from "../Hero/Hero";
 
 const Banner=({children, title, subtitle})=>{
     return (

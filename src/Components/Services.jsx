@@ -1,7 +1,5 @@
 import React from 'react';
-import './Services.css';
-import {Link} from "react-router-dom";
-import Title from "../Title/Title";
+import Title from "./Title";
 
 function Services({state}) {
     return (

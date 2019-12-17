@@ -1,9 +1,8 @@
 import React from 'react';
-import './Rooms.css';
-import Hero from "../../Hero/Hero";
-import Banner from "../../Banner/Banner";
+import Hero from "../Components/Hero";
+import Banner from "../Components/Banner";
 import {Link} from "react-router-dom";
-import RoomContainer from "../../RoomContainer/RoomContainer";
+import RoomContainer from "../Components/RoomContainer";
 
 function Rooms() {
     return (

@@ -1,11 +1,10 @@
 import React from 'react';
-import './Home.css';
-import Hero from "../../Hero/Hero";
-import Banner from "../../Banner/Banner";
+import Hero from "../Components/Hero";
+import Banner from "../Components/Banner";
 import {Link} from "react-router-dom";
-import Services from "../../Services/Services";
+import Services from "../Components/Services";
 import {FaBeer, FaCocktail, FaHiking, FaShuttleVan} from "react-icons/fa";
-import FeaturedRooms from "../../FeaturedRooms/FeaturedRooms";
+import FeaturedRooms from "../Components/FeaturedRooms";
 
 function Home() {
     return (
